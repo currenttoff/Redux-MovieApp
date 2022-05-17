@@ -1,0 +1,51 @@
+** Pre installation for project **
+
+npx create-react-app movie-app
+
+npm install redux react-redux @reduxjs/toolkit
+
+npm install axios
+
+npm install react-router-dom
+
+npm install node-saas --save
+
+Movie App Structure
+
+App
+Header
+Router
+Home
+Movie Listing  
+ Movie Card
+MovieDetail
+404 page
+Footer
+
+we are going to use omdb api
+https://www.omdbapi.com/
+
+currenttoff
+
+My OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=a2ce51a6
+
+how to use OMdb API
+Send all data requests to:
+
+http://www.omdbapi.com/?apikey=[yourkey]&
+
+Poster API requests:
+
+http://img.omdbapi.com/?apikey=[yourkey]&
+
+** imported fonts**
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+making api call in Home using useEffect
+
+Redux Toolkit Quick Start
+https://redux-toolkit.js.org/tutorials/quick-start
